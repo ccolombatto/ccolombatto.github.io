@@ -63,7 +63,7 @@ html{
     background-attachment: fixed;
 }
 body{
-    margin-top: 5%;
+    margin: 5% 0px 5% 0px;
     color: #111;
     font-size: 18px;
     line-height: 1.6em;
