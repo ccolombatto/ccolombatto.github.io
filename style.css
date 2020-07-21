@@ -99,7 +99,7 @@ header .title a:link{
     float: left;
     display: block;
     /* width: 25%; */
-    padding: 0px 2% 0px 2%;
+    padding: 0px 2.5% 0px 2.5%;
     height: 100%;
     text-align: center;
     z-index: 2;
@@ -149,16 +149,19 @@ main .publications{
 }
 footer{
     position: relative;
-    /* left: 0; */
-    /* bottom: 0; */
-    /* height: 110px; */
-    width: 85%;
-    margin-left: 10%;
+    width: 100%;
     margin-top:50px;
     display: inline-block;
+    text-align: center;
+}
+ul {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 0% 10% 0% 10%;
 }
 footer .button{
-    width: 30%;
+  padding: 0px 4% 0px 4%;
 }
 #topNav{
     width: 100%;
@@ -171,10 +174,9 @@ footer .button{
     font-weight: 400px;
     font-style: normal;
 }
-.links{
-    width: 95%;
-    margin-left: 7.5%;
-    display: inline-block;
+#links{
+    margin: 0% 0% 0% 0%;
+    padding: 0% 8% 0% 8%;
 }
 .page-divider-side {
     line-height: 1.6em;
