@@ -18,6 +18,9 @@
     border-bottom: 2px solid transparent;
     letter-spacing: 2px;
 }
+#HankinCart {
+  display: inline;
+}
 .a {
     color: #365779;
     font-weight: 400;
@@ -50,9 +53,9 @@ a:active { /* selected link */
 html{
     min-height: 100%;
     position: relative;
-    width: 850px;
     background: white;
     color: black;
+    width: 90%;
     font-weight: 100;
 	margin: 0px auto 0px auto;
     padding: 0;
@@ -63,11 +66,12 @@ html{
     background-attachment: fixed;
 }
 body{
-    margin: 5% 0px 5% 0px;
+    margin: 5% 2.5% 5% 2.5%;
     color: #111;
     font-size: 18px;
     line-height: 1.6em;
     background: rgba(255, 255, 255, .65);
+    width: 95%;
 }
 header{
 	position: relative;
@@ -96,10 +100,8 @@ header .title a:link{
 }
 .button{
     position: relative;
-    float: left;
-    display: block;
-    /* width: 25%; */
-    padding: 0px 2.5% 0px 2.5%;
+    display: inline-block;
+    padding: 0px 1.5% 0px 1.5%;
     height: 100%;
     text-align: center;
     z-index: 2;
@@ -158,10 +160,6 @@ ul {
   display: inline-block;
   text-align: center;
   width: 100%;
-  padding: 0% 8% 0% 8%;
-}
-footer .button{
-  padding: 0px 4% 0px 4%;
 }
 #topNav{
     width: 100%;
@@ -175,7 +173,19 @@ footer .button{
     font-style: normal;
 }
 #links{
-    margin: 0% 0% 0% 0%;
+    margin: 0%;
+    padding: 0%;
+}
+.NYCart{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center; 
+    font-size:12px;
+}
+.NYCart img{
+    width: 100%;
+    height: auto;
 }
 .page-divider-side {
     line-height: 1.6em;
@@ -215,6 +225,11 @@ footer .button{
 #mypic{
     display: inline-block;
     margin: 50px 20px 20px 20px;
+    width: 30%;
+}
+#mypic img{
+    width: 100%;
+    height: auto;
 }
 .section-title{
     text-align: center;
@@ -240,4 +255,115 @@ footer .button{
 #research p{
     font-size: 18px;
     line-height: 22px;
+}
+@media screen and (max-width: 650px) {
+    .page-divider {
+        display: none;
+    }
+    header .title{
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px 0 0 0;
+    } 
+    header {
+        height: 80px;
+    }
+    .button{
+        text-align: left;
+        width: 100%;
+    }
+    body{
+        font-size: 14px;
+        width: 350px;
+        position: relative;
+        margin: 10px auto 10px auto;
+    }
+    #topNav {
+        margin-top: 0px;
+    }
+    #mypic{
+        margin: 10px 10px 10px 10px;
+        width: 50%;
+    }
+    #mypic img {
+        width: 100%;
+        height: auto;;
+    }
+    main .textbox-side{
+        width: 90%;
+        margin: 0px 10px 0px 10px;
+        font-size: 14px;
+    }
+    main .textbox{
+        width: 90%;
+        margin: 0px 10px 0px 10px;
+        font-size: 14px;
+    }
+    footer {
+        margin-top: 0%;
+    }
+    ul {
+        padding: 0% 0% 0% 0%;
+    }
+    main .section-title{
+        padding: 10px 0 10 0;
+    }
+    #research p {
+        font-size: 14px;
+    }
+    /* .nav-button { 
+        top: 50px;
+        width: 180px;
+        cursor: pointer;
+    }
+    .nav-button-small {
+        display: none;
+    }
+    #about-button {
+        left: -40px;
+    }
+    #publication-button {
+        left: 30px;
+    }
+    #resource-button {
+        left: 100px;
+    }
+    #demo-button {
+        left: 170px;
+    }
+    .text-box {
+        width: 100%;
+        font-size: 18px;
+    }
+    .resource-section-title {
+        padding: 10px 0 5px 0;
+        font-size: 20px;
+    }
+    .section-title{
+        padding: 10px 0 10px 0;
+        font-size: 20px;
+    }
+    .publications{
+        font-size: 16px;
+        line-height: 22px;
+        text-indent: -30px;
+    }
+    .publications-conf {
+        font-size: 16px;
+        line-height: 22px;
+        text-indent : -30px;
+    }
+    footer {
+        height: 50px;
+        margin: 0 0 30px 0;
+    }
+    #gs-button {
+        left: 15px;
+    }
+    #rg-button {
+        left: 112.25px;
+    }
+    #github-button {
+        left: 210px;
+    } */
 }
