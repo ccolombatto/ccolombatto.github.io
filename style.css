@@ -72,6 +72,7 @@ body{
     line-height: 1.6em;
     background: rgba(255, 255, 255, .65);
     width: 95%;
+    max-width: 1100px;
 }
 header{
 	position: relative;
