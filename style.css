@@ -153,7 +153,7 @@ main .publications{
 footer{
     position: relative;
     width: 100%;
-    margin-top:50px;
+    margin-top: 20px;
     display: inline-block;
     text-align: center;
 }
@@ -181,7 +181,7 @@ ul {
     width: 60%;
     margin: auto;
     padding-bottom: 10px;
-    text-align: center; 
+    text-align: center;
     font-size:12px;
 }
 .NYCart img{
@@ -265,7 +265,7 @@ ul {
         font-size: 20px;
         line-height: 30px;
         padding: 20px 0 0 0;
-    } 
+    }
     header {
         height: 80px;
     }
@@ -312,7 +312,7 @@ ul {
     #research p {
         font-size: 14px;
     }
-    /* .nav-button { 
+    /* .nav-button {
         top: 50px;
         width: 180px;
         cursor: pointer;
