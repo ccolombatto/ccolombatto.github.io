@@ -227,6 +227,7 @@ ul {
     display: inline-block;
     margin: 50px 20px 20px 20px;
     width: 30%;
+    max-width: 200px;
 }
 #mypic img{
     width: 70%;
