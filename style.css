@@ -119,6 +119,8 @@ main{
     font-size: 18px;
     line-height: 1.6em;
     background: rgba(255, 255, 255, .65);
+    margin-left:auto;
+    margin-right:auto;
 }
 body{
     margin: 5% 2.5% 5% 2.5%;
