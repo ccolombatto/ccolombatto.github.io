@@ -165,7 +165,7 @@ ul {
 #topNav{
     width: 100%;
     text-align: center;
-    margin-top:50px;
+    margin-top:40px;
     display: inline-block;
     line-height:1.6emp;
     text-transform: uppercase;
@@ -174,8 +174,8 @@ ul {
     font-style: normal;
 }
 #links{
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 .NYCart{
     width: 60%;
@@ -184,9 +184,9 @@ ul {
     text-align: center;
     font-size:12px;
 }
-.NYCart img{		
-    width: 100%;		
-    height: auto;		
+.NYCart img{
+    width: 100%;
+    height: auto;
 }
 .page-divider-side {
     line-height: 1.6em;
